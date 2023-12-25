@@ -3,7 +3,7 @@ import './projects.css';
 import spotifyflic from '../../assets/SpotiyAPIFlic.png';
 import serverflic from '../../assets/HTTP Server Flic.png';
 import websiteflic from '../../assets/website flic.png';
-import chatbotflic from '../../assets/chatbotex.png';
+import moodmates from '../../assets/moodmates.png';
 
 
 const Projects = () => {
@@ -26,9 +26,9 @@ const Projects = () => {
         </div>
         <div className="projects_row2">
           <div className="chatbot_project">
-            <a className="chatbot_img" href="https://github.com/jacobireland/AWS-Chatbot" target= "_blank" rel="noreferrer"><img src={chatbotflic} width="310px" alt="spotify API project" /></a>
-            <a className="chatbot_name" href="https://github.com/jacobireland/AWS-Chatbot" target= "_blank" rel="noreferrer"> AWS Chatbot</a>
-            <h1 className="chatbot_blurb"> Created to familiarize myself with AWS services. Utilized Amazon Lex, Lambda, Cognito, S3, and CloudFormation.</h1>
+            <a className="chatbot_img" href="https://github.com/jacobireland/MoodMates" target= "_blank" rel="noreferrer"><img src={moodmates} width="310px" alt="spotify API project" /></a>
+            <a className="chatbot_name" href="https://github.com/jacobireland/MoodMates" target= "_blank" rel="noreferrer"> Mood Sharing App</a>
+            <h1 className="chatbot_blurb"> A mobile app designed for users to track their daily mood and see their friends moods. Implemented using React Native and Backendless as a project in my UI Design class.</h1>
           </div>
           <div className="webserver_project">
             <h1 className="webserver_private"> Unfortunately, due to course policies the code for this project is private and only available upon request. If you’re interested in viewing the full project, please reach out and I can give you access.</h1>

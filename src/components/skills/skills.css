@@ -26,10 +26,10 @@
 .python {
     position: relative;
     display: flex;
+	height: 340px;
     flex-direction: column;
     max-width: 21rem;
     align-items: center;
-    bottom: 12px;
 }
 
 .py_logo {
@@ -62,6 +62,7 @@
 .clang{
     position: relative;
     display: flex;
+	height: 340px;
     flex-direction: column;
     max-width: 21rem;
     align-items: center;
@@ -99,10 +100,10 @@
 .java {
     position: relative;
     display: flex;
+	height: 340px;
     flex-direction: column;
     max-width: 21rem;
     align-items: center;
-    bottom: 11px;
 }
 
 .java_logo {
@@ -139,47 +140,13 @@
     padding-top: 4rem;
     align-items: center;
     justify-content: center;
-}
-
-.aws {
-    position: relative;
-    bottom: 0.4rem;
-    display: flex;
-    flex-direction: column;
-    max-width: 21rem;
-    align-items: center;
-}
-
-.aws_logo {
-    background-color: rgba(255, 255, 255, 0.904);
-    border-radius: 100px;
-    padding: 1.5rem;
-    position: relative;
-}
-
-.aws_name {
-    position: relative;
-    color:rgba(255, 255, 255, 0.904);
-    font-family: var(--font-1);
-    font-size: 35px;
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 0.65rem;
-}
-
-.aws_blurb {
-    position: relative;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.708);
-    font-family: var(--font-1);
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 25px;
+	margin-bottom: 1rem;
 }
 
 .javascript {
     position: relative;
     display: flex;
+	height: 340px;
     flex-direction: column;
     max-width: 21rem;
     align-items: center;
@@ -214,60 +181,13 @@
     line-height: 25px;
 }
 
-.api {
-    position: relative;
-    bottom: 8px;
-    display: flex;
-    flex-direction: column;
-    max-width: 21rem;
-    align-items: center;
-}
-
-.api_logo {
-    background-color: rgba(255, 255, 255, 0.904);
-    border-radius: 100px;
-    padding: 1.5rem;
-    position: relative;
-}
-
-.api_name {
-    position: relative;
-    color:rgba(255, 255, 255, 0.904);
-    font-family: var(--font-1);
-    font-size: 35px;
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 0.65rem;
-}
-
-.api_blurb {
-    position: relative;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.708);
-    font-family: var(--font-1);
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 25px;
-}
-
-
-.skills_row3 {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-top: 6rem;
-}
-
 .react {
     position: relative;
-    bottom: 2.05rem;
     display: flex;
+	height: 340px;
     flex-direction: column;
     max-width: 21rem;
     align-items: center;
-    margin-right: 3rem;
 }
 
 .react_logo {
@@ -299,7 +219,7 @@
 
 .malware {
     position: relative;
-    bottom: 0.5rem;
+	height: 340px;
     display: flex;
     flex-direction: column;
     max-width: 21rem;
@@ -411,16 +331,13 @@
         margin: 0 0;
     }
 
-    .skills_row2,
-    .skills_row3 {
+    .skills_row2 {
         flex-direction: column;
         padding-top: 1rem;
     }
 
     .react,
-    .javascript,
-    .api,
-    .aws {
+    .javascript {
         max-width: 30rem;
         padding: 0 0 4rem 0;
         left: 0;
