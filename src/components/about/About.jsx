@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import mntflic from '../../assets/memnt.jpg';
+import gradFlic from '../../assets/gradflic.jpg';
 import { FaGithub, FaLinkedin, FaInstagram, FaStrava } from 'react-icons/fa';
 
 
@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="mysite_about-page" id="about">
       <div className="mysite_about">
-        <img className="mysite_flic" src={mntflic} width="300" alt="running in mountains" />
+        <img className="mysite_flic" src={gradFlic} width="300" alt="running in mountains" />
         <div className="mysite_about-info">
           <h1 className="name"> Jacob Ireland</h1>
           <h1 className="details"> CU '24, Computer Science, XCTF</h1>

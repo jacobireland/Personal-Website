@@ -19,8 +19,8 @@ const Projects = () => {
             <h1 className="spotify_blurb"> Uses the Spotify API to visualize a user’s top genres and create recommended playlists specific to their music taste.</h1>
           </div>
           <div className="website_project">
-            <a className="website_img" href="https://github.com/jacobireland/My-Website" target= "_blank" rel="noreferrer"><img src={websiteflic} width="311px" alt="spotify API project" /></a>
-            <a className="website_name" href="https://github.com/jacobireland/My-Website" target= "_blank" rel="noreferrer"> My Website</a>
+            <a className="website_img" href="https://github.com/jacobireland/Personal-Website" target= "_blank" rel="noreferrer"><img src={websiteflic} width="311px" alt="spotify API project" /></a>
+            <a className="website_name" href="https://github.com/jacobireland/Personal-Website" target= "_blank" rel="noreferrer"> My Website</a>
             <h1 className="website_blurb"> This website! I coded this from scratch using HTML, Javascript, CSS, and React JS.</h1>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css';
-import propic from '../../assets/profile2.png';
+import propic from '../../assets/portrait.jpg';
 
 const Header = () => {
   return (

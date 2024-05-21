@@ -35,17 +35,17 @@
 }
 
 .introduction,
-.introduction2 {
+.introduction2 { 
     font-family: var(--font-1);
-    font-size: 18px;
+    font-size: 20px;
     padding-bottom: 7px;
-    font-weight: 300;
-    line-height: 25px;
+    font-weight: 350;
+    line-height: 30px;
 }
 
 .interests {
     font-family: var(--font-1);
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 1px;
     font-weight: 300;
     line-height: 25px;

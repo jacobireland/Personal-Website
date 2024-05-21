@@ -140,7 +140,6 @@
     padding-top: 4rem;
     align-items: center;
     justify-content: center;
-	margin-bottom: 1rem;
 }
 
 .javascript {
@@ -165,7 +164,7 @@
     position: relative;
     color:rgba(255, 255, 255, 0.904);
     font-family: var(--font-1);
-    font-size: 35px;
+    font-size: 33px;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 0.65rem;
@@ -176,9 +175,9 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.708);
     font-family: var(--font-1);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 25px;
+    line-height: 22px;
 }
 
 .react {
@@ -252,6 +251,53 @@
     font-weight: 500;
     line-height: 25px;
 }
+
+.skills_row3 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding-top: 3.5rem;
+    align-items: center;
+    justify-content: center;
+	margin-bottom: 1rem;
+}
+
+.sql {
+    position: relative;
+	height: 340px;
+    display: flex;
+    flex-direction: column;
+    max-width: 21rem;
+    align-items: center;
+}
+
+.sql_logo {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 100px;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.sql_name {
+    position: relative;
+    color:rgba(255, 255, 255, 0.904);
+    font-family: var(--font-1);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.65rem;
+}
+
+.sql_blurb {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.708);
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
 
 @media screen and (max-width: 1050px){
     .py_logo {

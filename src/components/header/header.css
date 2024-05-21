@@ -19,11 +19,13 @@
 
 .mysite_header-propic {
     position: relative;
+    border: 6px solid white;
+    margin-right: 2rem;
 }
 
 .mysite_header-intro {
     position: relative;
-    left: 9.75rem;
+    left: 10.2rem;
     display:flex;
     flex-direction: column;
 }
