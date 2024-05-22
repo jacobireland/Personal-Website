@@ -1,0 +1,21 @@
+.popup_container {
+    z-index: 100;
+    display: flex;
+    position: fixed;
+    height: 500px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 8rem;
+    background-color: brown;
+    font-size: 100px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.close {
+    width: 25px;
+    height: 25px;
+}

@@ -41,14 +41,14 @@ const Skills = () => {
           <div className="malware">
             <FiSettings className="malware_logo" size={130} color="#f8825b"></FiSettings>
             <h1 className="malware_name"> Malware Analysis Reverse Engineering</h1>
-            <h1 className="malware_blurb"> Extensive experience dissecting and studying malicious files using malware analysis tools such as IDA PRO, OllyDbg, FakeNet, Floss, and more.</h1>
+            <h1 className="malware_blurb"> Experience dissecting and studying malicious files using malware analysis tools such as IDA PRO, OllyDbg, FakeNet, Floss, and more.</h1>
           </div>
         </div>
 		<div className="skills_row3">
 		  <div className="sql">
             <FaDatabase className="sql_logo" size={130} color="#f8825b"></FaDatabase>
             <h1 className="sql_name"> SQL</h1>
-            <h1 className="sql_blurb">I am currently taking a 4000 level database class that utilizes SQL, I expect to have an in depth understanding of the language by May 2024.</h1>
+            <h1 className="sql_blurb">Academic and professional experience creating DBMS's and related API's, including projects utilizing Mongo DB and MySQL.</h1>
           </div>
         </div>
       </div>

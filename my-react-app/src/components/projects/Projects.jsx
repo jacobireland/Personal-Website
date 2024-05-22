@@ -1,13 +1,10 @@
-import React from 'react';
 import './projects.css';
 import spotifyflic from '../../assets/SpotiyAPIFlic.png';
 import serverflic from '../../assets/HTTP Server Flic.png';
 import websiteflic from '../../assets/website flic.png';
 import moodmates from '../../assets/moodmates.png';
 
-
-const Projects = () => {
-
+const Projects = ({ proj1Visible, setProj1Visible}) => {
   return (
     <div>
       <div className="mysite_projects" id="projects">
@@ -36,6 +33,7 @@ const Projects = () => {
             <h1 className="webserver_name"> HTTP Web Server</h1>
             <h1 className="webserver_blurb"> Written in C, this is a simple HTTP web server that serves static HTML and image files and implements specific dynamic content.</h1>
           </div>
+          <button type='button' onClick={() => { setProj1Visible(!proj1Visible); }}> TEST BUTTON </button>
         </div>
       </div>
     </div>

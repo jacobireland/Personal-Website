@@ -10,13 +10,21 @@ body {
 }
 
 .App {
-  max-width: fit-content;
+  max-width: 100%;
   max-height: 1000px;
 }
 
 a {
     color: unset;
     text-decoration: none;
+}
+.popups_container {
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  width: 8%;
+  margin: auto;
+  padding: 0;
 }
 
 .main_background {
