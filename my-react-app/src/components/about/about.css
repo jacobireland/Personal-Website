@@ -3,11 +3,19 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 5rem
+}
+
+.about {
+    position: relative;
+    color: rgba(0, 0, 0, 0.904);
+    font-size: 50px;
+    font-family: var(--font-1);
+    padding-bottom: 4rem
 }
 
 .mysite_about {
     display: flex;
-    padding-top: 6rem;
     padding-right: 8rem;
     padding-left: 8rem;
     flex-direction: row;
@@ -55,6 +63,10 @@
     position: relative;
     padding: 0 4rem;
     padding-bottom: 3rem;
+}
+
+.mysite_about-socials :hover {
+    color: #2C78FA;
 }
 
 .linkedin,

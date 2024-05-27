@@ -12,6 +12,7 @@ const App = () => {
     <div className="App">
       { proj1Visible ? <Proj1Popup visible={proj1Visible} setVisible={setProj1Visible}/> : <div></div> }
       <div className="main_background">
+        <div className='main_grey'></div>
         <Navbar />
         <Header />
       </div>

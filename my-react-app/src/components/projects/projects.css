@@ -23,7 +23,7 @@
     padding-bottom: 4rem;
 }
 
-.spotify_project {
+.proj1 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -32,17 +32,17 @@
     margin-right: 2.5rem;
 }
 
-.spotify_img {
+.proj1_img {
     position: relative;
     transition: 0.5s;
 }
 
-.spotify_img:hover {
+.proj1_img:hover {
     transform:scale(1.1);
     z-index: 3;
 }
 
-.spotify_name {
+.proj1_name {
     text-align: center;
     font-family: var(--font-1);
     font-weight: 700;
@@ -51,7 +51,7 @@
     padding-bottom: 0.5rem;
 }
 
-.spotify_blurb {
+.proj1_blurb {
     text-align: center;
     font-family: var(--font-1);
     line-height: 22px;
@@ -62,7 +62,7 @@
 }
 
 
-.website_project {
+.proj2 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -71,18 +71,18 @@
     margin-left: 2.5rem;
 }
 
-.website_img {
+.proj2_img {
     position: relative;
     transition: 0.5s;
     opacity: 1;
 }
 
-.website_img:hover {
+.proj2_img:hover {
     transform:scale(1.1);
     z-index: 3;
 }
 
-.website_name {
+.proj2_name {
     text-align: center;
     font-family: var(--font-1);
     font-size: 30px;
@@ -91,7 +91,7 @@
     padding-bottom: 0.5rem;
 }
 
-.website_blurb {
+.proj2_blurb {
     text-align: center;
     font-family: var(--font-1);
     line-height: 22px;
@@ -111,7 +111,7 @@
     padding-bottom: 4rem;
 }
 
-.chatbot_project {
+.proj3 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -120,17 +120,17 @@
     margin-right: 2.5rem;
 }
 
-.chatbot_img {
+.proj3_img {
     position: relative;
     transition: 0.5s;
 }
 
-.chatbot_img:hover {
+.proj3_img:hover {
     transform:scale(1.1);
     z-index: 3;
 }
 
-.chatbot_name {
+.proj3_name {
     text-align: center;
     font-family: var(--font-1);
     font-size: 30px;
@@ -139,7 +139,7 @@
     padding-bottom: 0.5rem;
 }
 
-.chatbot_blurb {
+.proj3_blurb {
     text-align: center;
     font-family: var(--font-1);
     line-height: 22px;
@@ -149,7 +149,7 @@
 
 }
 
-.webserver_project {
+.proj4 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -158,13 +158,13 @@
     margin-left: 2.5rem;
 }
 
-.webserver_img {
+.proj4_img {
     position: relative;
     transition: 0.5s;
     opacity: 1;
 }
 
-.webserver_private {
+.proj4_private {
     position: absolute;
     align-items: center;
     font-family: var(--font-1);
@@ -174,13 +174,13 @@
     padding: 2rem 2rem;
 }
 
-.webserver_img:hover {
+.proj4_img:hover {
     transform:scale(1.1);
     z-index: 3;
     opacity: 0;
 }
 
-.webserver_name {
+.proj4_name {
     text-align: center;
     font-family: var(--font-1);
     font-size: 30px;
@@ -188,7 +188,7 @@
     padding-bottom: 0.5rem;
 }
 
-.webserver_blurb {
+.proj4_blurb {
     text-align: center;
     font-family: var(--font-1);
     line-height: 22px;

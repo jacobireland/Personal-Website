@@ -3,10 +3,10 @@ import './about.css';
 import gradFlic from '../../assets/gradflic.jpg';
 import { FaGithub, FaLinkedin, FaInstagram, FaStrava } from 'react-icons/fa';
 
-
 const About = () => {
   return (
     <div className="mysite_about-page" id="about">
+      <h1 className="about"> About Me</h1>
       <div className="mysite_about">
         <img className="mysite_flic" src={gradFlic} width="300" alt="running in mountains" />
         <div className="mysite_about-info">

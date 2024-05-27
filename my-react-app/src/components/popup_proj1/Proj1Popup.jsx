@@ -6,7 +6,7 @@ const Proj1Popup = ({ visible, setVisible}) => {
 
     return (
         <div className="popup_container">
-            <div className="close" onClick={() => { setVisible(!visible); }}><FaTimes size={25}></FaTimes></div>
+            <FaTimes size={20} className="close" onClick={() => { setVisible(!visible); }}></FaTimes>
         </div>
     )
 }

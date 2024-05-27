@@ -4,20 +4,39 @@
     width: 100%;
     overflow: hidden;
     z-index: 9999;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-
     transition: 0.35s;
+}
+
+#navbar p + p {
+    margin-left: 100px;
+}
+
+#navbar p:hover {
+    color:#2C78FA
+}
+
+#navbar.sticky .socials {
+    opacity: 100%;
 }
 
 #navbar.sticky {
     background-color: rgb(29, 29, 29);
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+    opacity: 100%;
+    margin-left: 0;
+}
+
+#navbar.sticky .mysite_navbar-links_container {
+    margin-left: 0;
 }
 
 #navbar.sticky p {
     color:rgb(227, 227, 227)
+}
+
+#navbar.sticky p:hover {
+    color:#2C78FA
 }
 
 .mysite_navbar-links {
@@ -31,28 +50,19 @@
     display: flex;
     flex-direction: row;
     position: relative;
-}
-
-.mysite_navbar-links_container p:hover {
-    font-weight: 700;
-}
-
-.mysite_name {
-    font-family: var(--font-1);
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 25px;
-    text-transform: capitalize;
-    position: relative;
-    right: 6rem
+    margin-left: 250px;
 }
 
 .socials {
     display: flex;
     flex-direction: row;
-    padding: 0 0;
+    padding: 0 0 0 100px;
     position: relative;
-    left: 6rem;
+    opacity: 0%;
+}
+
+.socials :hover {
+    color: #2C78FA;
 }
 
 .nav-linkedin,
@@ -62,6 +72,7 @@
     position: relative;
     padding: 0 0.6rem 0 0;
     margin: 0 0 0 0;
+    color: rgb(227, 227, 227);
 }
 
 .mysite_navbar-links_container p,

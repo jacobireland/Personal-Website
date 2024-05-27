@@ -1,19 +1,26 @@
 import React from 'react'
 import './header.css';
-import propic from '../../assets/portrait.jpg';
+import { FaGithub, FaLinkedin, FaInstagram, FaStrava } from 'react-icons/fa';
 
 const Header = () => {
+
   return (
     <div className="mysite_header" id="home">
       <div className="mysite_header-content">
-        <img className="mysite_header-propic" src={propic} width="180" height="235" alt="propic"/>
         <div className="mysite_header-intro">
-          <h1 className="mysite_header-name"> Jacob Ireland</h1>
+          <div className='mysite_header-name'>
+            <h1 className="mysite_header-firstName">Jacob</h1>
+            <h1 className="mysite_header-lastName">Ireland</h1>
+          </div>
           <div className="bio">
-            <p> Columbia University '24</p>
-            <p> Computer Science Major</p>
-            <p> Student Athlete</p> 
+            <p>Columbia Graduate, Student-Athlete, & Programmer</p>
           </div> 
+          <div className='mysite_header_links'>
+            <a className="social" href="https://www.linkedin.com/in/jacob-ireland-a8a683189/" target="_blank" rel="noreferrer"><FaLinkedin size={30}></FaLinkedin></a>
+            <a className="social" href="https://github.com/jacobireland" target="_blank" rel="noreferrer"><FaGithub size={30}></FaGithub></a>
+            <a className="social" href="https://www.instagram.com/_jacob_ireland/?hl=en" target="_blank" rel="noreferrer"><FaInstagram size={30}></FaInstagram></a>
+            <a className="social" href="https://www.strava.com/athletes/46252676" target="_blank" rel="noreferrer"><FaStrava size={30}></FaStrava></a>
+          </div>
         </div>
       </div>
     </div>

@@ -35,15 +35,12 @@ const Navbar = () => {
   return (
     <div className="mysite_navbar" id="navbar">
       <div className="mysite_navbar-links">
-        <div className="mysite_name">
-          <p>Jacob Ireland</p>
-        </div>
         <div className="mysite_navbar-links_container">
-          <p><a href="#home">HOME</a></p>
-          <p><a href="#about">ABOUT</a></p>
-          <p><a href="#skills">SKILLS</a></p>
-          <p><a href="#projects">PROJECTS</a></p>
-          <p><a href={resume} target="_blank" rel="noreferrer" >RESUME</a></p>
+          <p className='nav-item'><a href="#home">HOME</a></p>
+          <p className='nav-item'><a href="#about">ABOUT</a></p>
+          <p className='nav-item'><a href="#skills">SKILLS</a></p>
+          <p className='nav-item'><a href="#projects">PROJECTS</a></p>
+          <p className='nav-item'><a href={resume} target="_blank" rel="noreferrer" >RESUME</a></p>
         </div>
 
         <div className="socials">
