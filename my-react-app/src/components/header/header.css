@@ -22,12 +22,12 @@
 
 .mysite_header-firstName {
     font-weight: 500;
-    font-size: 100px;
+    font-size: 110px;
 }
 
 .mysite_header-lastName {
     font-weight: 500;
-    font-size: 100px;
+    font-size: 110px;
     color: #2C78FA;
     margin-left: 23px;
 }
@@ -40,6 +40,7 @@
     padding: 2px 10px 2px 10px;
     width: 100%;
     margin: 10px 0 30px 0;
+    font-weight: 400;
 }
 
 a + a {

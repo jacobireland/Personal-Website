@@ -8,194 +8,88 @@
     padding-bottom: 4rem;
 }
 
-.projects_name {
-    color:rgb(0, 0, 0);
+.projects {
+    position: relative;
+    font-size: 50px;
     font-family: var(--font-1);
-    font-weight: 900;
-    font-size: 40px;
     padding-bottom: 4rem;
 }
 
-.projects_row1 {
-    position: relative;
+.projects_row {
     display: flex;
     flex-direction: row;
-    padding-bottom: 4rem;
 }
 
-.proj1 {
-    position: relative;
+.proj {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: 25rem;
-    margin-right: 2.5rem;
+    align-items: left;
+    width: 100%;
+    margin-bottom: 60px;
 }
 
-.proj1_img {
-    position: relative;
-    transition: 0.5s;
-}
-
-.proj1_img:hover {
-    transform:scale(1.1);
-    z-index: 3;
-}
-
-.proj1_name {
-    text-align: center;
-    font-family: var(--font-1);
-    font-weight: 700;
-    font-size: 30px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.proj1_blurb {
-    text-align: center;
-    font-family: var(--font-1);
-    line-height: 22px;
-    font-size: 15px;
-    font-weight: 400;
-    max-width: 20rem;
-
-}
-
-
-.proj2 {
-    position: relative;
+.proj_img{
     display: flex;
-    flex-direction: column;
+    background-color: wheat;
     align-items: center;
-    max-width: 25rem;
-    margin-left: 2.5rem;
+    justify-content: flex-start;
+    margin-bottom: 5px;
 }
 
-.proj2_img {
-    position: relative;
-    transition: 0.5s;
-    opacity: 1;
-}
-
-.proj2_img:hover {
-    transform:scale(1.1);
-    z-index: 3;
-}
-
-.proj2_name {
-    text-align: center;
-    font-family: var(--font-1);
-    font-size: 30px;
-    font-weight: 700;
-    padding-top: 0.7rem;
-    padding-bottom: 0.5rem;
-}
-
-.proj2_blurb {
-    text-align: center;
-    font-family: var(--font-1);
-    line-height: 22px;
-    font-size: 15px;
-    font-weight: 400;
-    max-width: 20rem;
-
-}
-
-
-
-
-.projects_row2 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 4rem;
-}
-
-.proj3 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 25rem;
-    margin-right: 2.5rem;
-}
-
-.proj3_img {
-    position: relative;
-    transition: 0.5s;
-}
-
-.proj3_img:hover {
-    transform:scale(1.1);
-    z-index: 3;
-}
-
-.proj3_name {
-    text-align: center;
-    font-family: var(--font-1);
-    font-size: 30px;
-    font-weight: 700;
-    padding-top: 0.7rem;
-    padding-bottom: 0.5rem;
-}
-
-.proj3_blurb {
-    text-align: center;
-    font-family: var(--font-1);
-    line-height: 22px;
-    font-size: 15px;
-    font-weight: 400;
-    max-width: 21rem;
-
-}
-
-.proj4 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 25rem;
-    margin-left: 2.5rem;
-}
-
-.proj4_img {
-    position: relative;
-    transition: 0.5s;
-    opacity: 1;
-}
-
-.proj4_private {
+.imgtext {
     position: absolute;
-    align-items: center;
+    z-index: 50;
+    width: 350px;
     font-family: var(--font-1);
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 20px;
-    padding: 2rem 2rem;
+    color: #c5d3e2;
+    font-size: 40px;
+    font-weight: 650;
+    margin-left: 15px;
+    line-height: 1.4;
 }
 
-.proj4_img:hover {
-    transform:scale(1.1);
-    z-index: 3;
-    opacity: 0;
-}
-
-.proj4_name {
-    text-align: center;
+.proj_button, .git_button {
+    margin-bottom: 5px;
+    padding: 12px 0 12px 10px;
+    font-size: 16px;
     font-family: var(--font-1);
-    font-size: 30px;
-    padding-top: 0.7rem;
-    padding-bottom: 0.5rem;
-}
-
-.proj4_blurb {
-    text-align: center;
-    font-family: var(--font-1);
-    line-height: 22px;
-    font-size: 15px;
     font-weight: 400;
-    max-width: 20rem;
+    align-content: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
 
+.git_button {
+    background-color: black;
+    color: white;
+}
+
+.proj_button {
+    background-color: #04151F;
+    color: white;
+}
+
+.proj_button:hover, .git_button:hover {
+    transform: scale(1.05);
+}
+
+#eye, #git {
+    margin-right: 10px;
+    align-self: center;
+    margin-left: 2px;
+}
+
+.git_link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+span + span {
+    margin-left: 50px;
 }
 
 .popup {
