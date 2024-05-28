@@ -5,3 +5,6 @@ export { default as Footer } from './footer/Footer';
 export { default as Header } from './header/Header';
 export { default as Skills } from './skills/Skills';
 export { default as Proj1Popup } from './popup_proj1/Proj1Popup';
+export { default as Proj2Popup } from './popup_proj2/Proj2Popup';
+export { default as Proj3Popup } from './popup_proj3/Proj3Popup';
+export { default as Proj4Popup } from './popup_proj4/Proj4Popup';
