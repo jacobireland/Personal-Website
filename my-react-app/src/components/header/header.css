@@ -50,7 +50,7 @@
     align-items: center;
 }
 
-a + a {
+.mysite_header a + a {
     margin-left: 1rem;
 }
 
