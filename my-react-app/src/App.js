@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { Navbar, Header, About, Skills, Projects, Footer, Proj1Popup, Proj2Popup, Proj3Popup, Proj4Popup } from './components';
+import MetaTags from 'react-meta-tags'
 import './App.css';
 
 
@@ -13,6 +14,10 @@ const App = () => {
 
   return (
     <div className="App">
+      <MetaTags>
+        <title>Personal Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </MetaTags>
       { proj1Visible ? <Proj1Popup visible={proj1Visible} setVisible={setProj1Visible}/> : <div></div> }
       { proj2Visible ? <Proj2Popup visible={proj2Visible} setVisible={setProj2Visible}/> : <div></div> }
       { proj3Visible ? <Proj3Popup visible={proj3Visible} setVisible={setProj3Visible}/> : <div></div> }

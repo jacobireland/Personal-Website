@@ -3,127 +3,67 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 5rem
-}
-
-.about {
-    position: relative;
-    color: rgba(0, 0, 0, 0.904);
-    font-size: 50px;
-    font-family: var(--font-1);
-    padding-bottom: 4rem
 }
 
 .mysite_about {
     display: flex;
-    padding-right: 8rem;
-    padding-left: 8rem;
-    flex-direction: row;
-    padding-bottom: 3rem;
+    align-items: center;
+    padding: 0 4rem 0 4rem;
+}
+
+.mysite_about-title {
+    font-size: 3.5vw;
+    font-family: var(--font-1);
+    margin: 5rem 0 2rem 0;
+}
+
+.mysite_flic {
+    width: 100%;
+    max-width: 23vw;
+    height: auto;
+    border-radius: 100%;
 }
 
 .mysite_about-info {
-    position: relative;
-    left: 2rem;
-    padding-left: 2rem;
-
+    margin-left: 4rem;
+    align-content: end;
+    font-family: var(--font-1);
 }
 
-.name {
-    font-family: var(--font-1);
-    font-size: 35px;
-    padding-bottom: 8px;
+.mysite_about-name {
+    font-size: 2.5vw;
 }
 
-.details {
-    font-family: var(--font-1);
-    font-weight: 400;
-    font-size: 25px;
-    padding-bottom: 28px;
-}
-
-.introduction,
-.introduction2 { 
-    font-family: var(--font-1);
-    font-size: 20px;
-    padding-bottom: 7px;
-    font-weight: 350;
-    line-height: 30px;
-}
-
-.interests {
-    font-family: var(--font-1);
-    font-size: 20px;
-    padding-top: 1px;
+.mysite_about-details {
+    font-size: 1.6vw;
     font-weight: 300;
-    line-height: 25px;
+    font-style: italic;
+    margin: 0.3rem 0 1rem 0;
+}
+
+.mysite_about-introduction,
+.mysite_about-introduction2 { 
+    font-size: 1.4vw;
+    padding-bottom: 7px;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.mysite_about-interests {
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 1.6rem;
 }
 
 .mysite_about-socials {
-    position: relative;
-    padding: 0 4rem;
-    padding-bottom: 3rem;
+    margin: 3rem 0 4rem 0;
 }
 
-.mysite_about-socials :hover {
+.mysite_about-socials a+a {
+    margin-left: 3rem;
+}
+
+.mysite_about-socials svg:hover {
     color: #2C78FA;
-}
-
-.linkedin,
-.twitter,
-.instagram,
-.strava {
-    position: relative;
-    padding-top: 3rem;
-    padding: 1.5rem;
-}
-
-@media screen and (max-width: 900px) {
-    .mysite_about {
-        padding-right: 1rem;
-    }
-    .mysite_flic {
-        position: relative;
-        right: 5rem;
-    }
-
-    .mysite_about-info {
-        position: relative;
-        padding: 0;
-        left: -3rem;
-    }
-
-}
-
-@media screen and (max-width: 550px) {
-    
-    .mysite_about-page {
-        justify-content: center;
-        padding: 0 0 0 0
-    }
-    
-    .mysite_about {
-        flex-direction: column;
-        align-items: center;
-        padding: 7rem 0 0 0;
-        max-width: 20rem;
-    }
-
-    .mysite_flic {
-        position: relative;
-        left: 0.25rem;
-    }
-
-    .mysite_about-info {
-        position: relative;
-        align-items: center;
-        left: 0;
-        padding: 4rem 0 2.5rem 0;
-    }
-
-    .name {
-        text-align: center;
-        padding-bottom: 0.5rem;
-    }
-
+    transform: scale(1.1);
 }

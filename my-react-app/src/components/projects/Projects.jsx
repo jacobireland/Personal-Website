@@ -48,7 +48,7 @@ const Projects = ({ proj1Visible, setProj1Visible, proj2Visible, setProj2Visible
             <div className="proj_button" onClick={() => { setProj3Visible(!proj3Visible)}}>
               <FaEye size={21} id='eye'></FaEye>
               <h>Project</h>
-            </div>
+            </div> 
             <a className="git_button" href="https://github.com/jacobireland/Personal-Website" target="_blank" rel="noreferrer">
               <FaGithub size={21} id='git'></FaGithub>
               <h>Github</h>

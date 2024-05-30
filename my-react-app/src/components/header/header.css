@@ -1,12 +1,13 @@
 .mysite_header {
-    position: relative;
     display: flex;
-    width: 100%;
+    position: relative;
     height: 100vh;
+    align-items: center;
 }
 
 .mysite_header-content {
-    align-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .mysite_header-intro {
@@ -17,95 +18,42 @@
 
 .mysite_header-name {
     display: flex;
-    flex-direction: row;
 }
 
-.mysite_header-firstName {
+.mysite_header-name h1 {
+    font-size: 6.2vw;
     font-weight: 500;
-    font-size: 110px;
 }
 
 .mysite_header-lastName {
-    font-weight: 500;
-    font-size: 110px;
     color: #2C78FA;
-    margin-left: 23px;
+    margin-left: 1rem;
 }
 
-.bio {
-    font-weight: 500;
-    font-size: 30px;
-    background-color: rgba(58, 58, 58, 0.699);
-    border-radius: 4px;
-    padding: 2px 10px 2px 10px;
-    width: 100%;
-    margin: 10px 0 30px 0;
-    font-weight: 400;
+.mysite_header-bio {
+    font-size: 1.6vw;
+    font-weight: 200;
+    background-color: #28282862;
+    border-radius: 0.3rem;
+    padding: 0.15rem 0.5rem 0.15rem 0.5rem;
+    margin-top: 0.4rem;
+}
+
+.mysite_header-links {
+    display: flex;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+
+.mysite_header-social {
+    display: flex;
+    align-items: center;
 }
 
 a + a {
-    margin-left: 15px;
+    margin-left: 1rem;
 }
 
-.social :hover {
+.mysite_header-social :hover {
     color: #2C78FA;
-}
-
-@media screen and (max-width: 850px) {
-    
-    .mysite_header-name {
-        font-size: 30px;
-    }
-
-    .mysite_header-intro {
-        position: relative;
-        left: 5rem;
-    }
-
-    .mysite_header-propic {
-        position: relative;
-        right: 3rem;
-    }
-}
-
-@media screen and (max-width: 730px) {
-    .mysite_header-intro {
-        position: relative;
-        left: 3rem;
-    }
-
-    .mysite_header-propic {
-        position: relative;
-        right: 1rem;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .mysite_header {
-        margin: 0 0;
-        align-items: center;
-        padding-bottom: 25rem;
-    }
-
-    .mysite_header-content {
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        top: 10rem;
-    }
-
-    .bio {
-        font-size: 15px;
-        line-height: 20px;
-    }
-    .mysite_header-propic {
-        position: relative;
-        left: 0.1rem;
-        transform: scale(0.8);
-    }
-
-    .mysite_header-intro {
-        position: relative;
-        left: 1rem
-    }
 }

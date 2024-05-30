@@ -6,6 +6,7 @@
     flex-direction: column;
     padding-top: 5rem;
     padding-bottom: 4rem;
+    align-content: center;
 }
 
 .projects {
@@ -17,20 +18,23 @@
 
 .projects_row {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    justify-content: center;
 }
 
 .proj {
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 100%;
+    width: 360px;
     margin-bottom: 60px;
 }
 
 .proj_img{
     display: flex;
-    background-color: wheat;
+    max-width: min-content;
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 5px;
@@ -56,7 +60,6 @@
     font-weight: 400;
     align-content: center;
     cursor: pointer;
-    display: flex;
     flex-direction: row;
     text-align: center;
 }
@@ -89,7 +92,7 @@
 }
 
 span + span {
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .popup {
