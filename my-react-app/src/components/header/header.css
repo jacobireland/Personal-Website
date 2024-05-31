@@ -3,6 +3,8 @@
     position: relative;
     height: 100vh;
     align-items: center;
+    background-color: #444;
+    opacity: 90%;
 }
 
 .mysite_header-content {
@@ -13,7 +15,7 @@
 .mysite_header-intro {
     font-family: var(--font-1);
     color: white;
-    margin-left: 5rem;
+    margin-left: 6vw;
 }
 
 .mysite_header-name {
@@ -21,7 +23,7 @@
 }
 
 .mysite_header-name h1 {
-    font-size: 6.2vw;
+    font-size: 5rem;
     font-weight: 500;
 }
 
@@ -31,12 +33,13 @@
 }
 
 .mysite_header-bio {
-    font-size: 1.6vw;
+    font-size: 1.35rem;
     font-weight: 200;
     background-color: #28282862;
-    border-radius: 0.3rem;
+    border-radius: 0.15rem;
     padding: 0.15rem 0.5rem 0.15rem 0.5rem;
     margin-top: 0.4rem;
+    width: fit-content;
 }
 
 .mysite_header-links {
@@ -50,10 +53,16 @@
     align-items: center;
 }
 
-.mysite_header a + a {
-    margin-left: 1rem;
+.mysite_header-svgs {
+    width: 1.8rem;
+    height: 1.8rem;
 }
 
-.mysite_header-social :hover {
+.mysite_header a + a {
+    margin-left: 0.8rem;
+}
+
+.mysite_header-social:hover {
     color: #2C78FA;
+    transform: scale(1.1);
 }

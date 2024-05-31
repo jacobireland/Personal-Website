@@ -8,11 +8,11 @@
 .mysite_about {
     display: flex;
     align-items: center;
-    padding: 0 4rem 0 4rem;
+    padding: 0 5vw 0 5vw;
 }
 
 .mysite_about-title {
-    font-size: 3.5vw;
+    font-size: 2.5rem;
     font-family: var(--font-1);
     margin: 5rem 0 2rem 0;
 }
@@ -25,17 +25,17 @@
 }
 
 .mysite_about-info {
-    margin-left: 4rem;
+    margin-left: 5vw;
     align-content: end;
     font-family: var(--font-1);
 }
 
 .mysite_about-name {
-    font-size: 2.5vw;
+    font-size: 1.8rem;
 }
 
 .mysite_about-details {
-    font-size: 1.6vw;
+    font-size: 1.2rem;
     font-weight: 300;
     font-style: italic;
     margin: 0.3rem 0 1rem 0;
@@ -43,14 +43,14 @@
 
 .mysite_about-introduction,
 .mysite_about-introduction2 { 
-    font-size: 1.4vw;
+    font-size: 1.1rem;
     padding-bottom: 7px;
     font-weight: 400;
     line-height: 1.6vw;
 }
 
 .mysite_about-interests {
-    font-size: 1.4vw;
+    font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.6vw;
 }
@@ -60,7 +60,12 @@
 }
 
 .mysite_about-socials a+a {
-    margin-left: 3rem;
+    margin-left: 2rem;
+}
+
+.mysite_about-svgs {
+    width: 2.2rem;
+    height: 2.2rem;
 }
 
 .mysite_about-socials svg:hover {

@@ -34,15 +34,6 @@ a {
   background-size: cover;
 }
 
-.main_grey {
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: #444;
-  opacity: 90%;
-}
-
 .main_navbar {
   z-index: 999;
 }

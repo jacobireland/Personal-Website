@@ -18,10 +18,10 @@ const About = () => {
             </div>
         </div>
         <div className="mysite_about-socials">
-            <a className="mysite_about-linkedin" href="https://www.linkedin.com/in/jacob-ireland-a8a683189/" target="_blank" rel="noreferrer"><FaLinkedin size={40} className='bob'></FaLinkedin></a>
-            <a className="mysite_about-twitter" href="https://github.com/jacobireland" target="_blank" rel="noreferrer"><FaGithub size={40}></FaGithub></a>
-            <a className="mysite_about-instagram" href="https://www.instagram.com/_jacob_ireland/?hl=en" target="_blank" rel="noreferrer"><FaInstagram size={40}></FaInstagram></a>
-            <a className="mysite_about-strava" href="https://www.strava.com/athletes/46252676" target="_blank" rel="noreferrer"><FaStrava size={40}></FaStrava></a>
+            <a className="mysite_about-linkedin" href="https://www.linkedin.com/in/jacob-ireland-a8a683189/" target="_blank" rel="noreferrer"><FaLinkedin className='mysite_about-svgs'></FaLinkedin></a>
+            <a className="mysite_about-twitter" href="https://github.com/jacobireland" target="_blank" rel="noreferrer"><FaGithub className='mysite_about-svgs'></FaGithub></a>
+            <a className="mysite_about-instagram" href="https://www.instagram.com/_jacob_ireland/?hl=en" target="_blank" rel="noreferrer"><FaInstagram className='mysite_about-svgs'></FaInstagram></a>
+            <a className="mysite_about-strava" href="https://www.strava.com/athletes/46252676" target="_blank" rel="noreferrer"><FaStrava className='mysite_about-svgs'></FaStrava></a>
         </div>
     </div>
   )
