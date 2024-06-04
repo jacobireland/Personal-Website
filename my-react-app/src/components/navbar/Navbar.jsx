@@ -49,18 +49,20 @@ const Navbar = () => {
                     <a className="nav-strava" href="https://www.strava.com/athletes/46252676" target="_blank" rel="noreferrer"><FaStrava size={25}></FaStrava></a>
                 </div>
             </div>
-            <div className="mysite_navbar-menu">
-                {toggleMenu 
-                    ? <RiCloseLine color="00000" size={27} onClick={() => setToggleMenu(false)}/>
-                    : <RiMenu3Line color="00000" size={27} onClick={() => setToggleMenu(true)}/>
+            <div className="mysite_navbar-menu-area">
+                {toggleMenu
+                    ? <RiCloseLine color="00000" onClick={() => setToggleMenu(false)}/>
+                    : <RiMenu3Line color="00000" onClick={() => setToggleMenu(true)}/>
                 }
+                <div className='mysite_navbar-menu-open'>
                 {toggleMenu && (
                     <div className="mysite_navbar-menu_container scale-up-center">
                         <div className="mysite_navbar-menu_container-links">
-                            <Menu />
+                            <Menu className='mysite_navbar-menu'/>
                         </div>
                     </div>
                 )}
+            </div>
             </div>
         </div>
     )

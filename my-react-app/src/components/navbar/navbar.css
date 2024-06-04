@@ -35,46 +35,6 @@
     display: none;
 }
 
-.mysite_navbar-menu_container p {
-    color: rgb(0, 0, 0);
-    font-family: var(--font-2);
-    font-weight: 500;
-    font-size: 1.05vw;
-    text-transform: capitalize;
-    margin: 0 2rem;
-    cursor: pointer;
-}
-
-.mysite_navbar-menu {
-    display: none;
-}
-
-.mysite_navbar-menu svg {
-    cursor: pointer;
-}
-
-.mysite_navbar-menu_container {
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column;
-    height: fit-content;
-    text-align: end;
-    background: var(--color-footer);
-    background-size:cover;
-    padding: 1rem;
-    position: relative;
-    top: 40px;
-    right: 0;
-    margin-top: 0rem;
-    min-width: 100px;
-    border-radius: 5px;
-    box-shadow: 0 0 5 rgb(0, 0, 0.2); 
-}
-
-.mysite_navbar-menu_container p {
-    margin: 0.5rem 0;
-}
-
 #navbar.sticky {
     background-color: rgb(29, 29, 29);
     padding-top: 0.5rem;
@@ -115,57 +75,62 @@
     margin-left: 0.7rem;
 }
 
-@media screen and (max-width: 1050px) {
+.mysite_navbar-menu {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
     .mysite_navbar-links_container {
         display: none;
     }
 
-    .socials {
+    #navbar.sticky .mysite_navbar-socials {
         display: none;
     }
 
-    .mysite_name {
-        position: relative;
-        left: -23rem;
+    .mysite_navbar-menu-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: flex-end;
+        margin: 1rem 1rem 0 0;
     }
 
-    .mysite_navbar-menu_container {
-        background-color:aliceblue ;
-        position: relative;
-        top: 0
-    }
-    .mysite_navbar-menu {
+    .mysite_navbar-menu_container-links {
         display: flex;
-        justify-content:right;
-        position: relative;
-        right: 3rem;
-        top: -0.8rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #444;
+        border-radius: 5px;
+        color: white;
+        font-family: var(--font-1);
+        font-size: 1.3rem;
+        line-height: 3rem;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .mysite_navbar-menu_container-links p:hover{
+        color: #2C78FA;
+    }
+
+    .mysite_navbar-menu-open {
+        display: flex;
+        margin-top: 0.5rem;
+    }
+
+    .mysite_navbar-menu-area svg {
+        width: 2rem;
+        height: 2rem;
     }
 
     #navbar.sticky{
-        background-color: aliceblue;
-        min-height: fit-content;
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-
-    #navbar.sticky p {
-        color: black;
-    }
-
-    .mysite_navbar-links {
-        position: relative;
-        top: 0.8rem;
+        background: none;
+        padding: 0 0 0 0;
     }
 
 }
 
-@media screen and (max-width:930px) {
-    .mysite_name {
-        position: relative;
-        left: -15rem;
-    }
-}
 
 @media screen and (max-width: 550px) {
     .mysite_name {
