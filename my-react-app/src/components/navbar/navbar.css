@@ -75,9 +75,10 @@
     margin-left: 0.7rem;
 }
 
-.mysite_navbar-menu {
+.mysite_navbar-menu-area {
     display: none;
 }
+
 
 @media screen and (max-width: 800px) {
     .mysite_navbar-links_container {
