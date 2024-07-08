@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import resume from '../../assets/Jacob_Ireland_Resume.pdf';
-import { FaGithub, FaLinkedin, FaInstagram, FaStrava } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 
 document.addEventListener('DOMContentLoaded', e => {
@@ -46,7 +46,6 @@ const Navbar = () => {
                     <a className="nav-linkedin" href="https://www.linkedin.com/in/jacob-ireland-a8a683189/" target="_blank" rel="noreferrer"><FaLinkedin size={25}></FaLinkedin></a>
                     <a className="nav-twitter" href="https://github.com/jacobireland" target="_blank" rel="noreferrer"><FaGithub size={25}></FaGithub></a>
                     <a className="nav-instagram" href="https://www.instagram.com/_jacob_ireland/?hl=en" target="_blank" rel="noreferrer"><FaInstagram size={25}></FaInstagram></a>
-                    <a className="nav-strava" href="https://www.strava.com/athletes/46252676" target="_blank" rel="noreferrer"><FaStrava size={25}></FaStrava></a>
                 </div>
             </div>
             <div className="mysite_navbar-menu-area">

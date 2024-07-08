@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div className="footer_email">
           <h1 className="email_word"> Email:</h1>
-          <a className="email" href="mailto:jacobireland01@gmail.com"> jacobireland01@gmail</a>
+          <a className="email" href="mailto:jacobireland01@gmail.com"> jacobireland01@gmail.com</a>
         </div>
       </div>
     </div>

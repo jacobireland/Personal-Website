@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css';
-import { FaGithub, FaLinkedin, FaInstagram, FaStrava } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Header = () => {
 
@@ -17,7 +17,6 @@ const Header = () => {
                     <a className="mysite_header-social" href="https://www.linkedin.com/in/jacob-ireland-a8a683189/" target="_blank" rel="noreferrer"><FaLinkedin className='mysite_header-svgs'></FaLinkedin></a>
                     <a className="mysite_header-social" href="https://github.com/jacobireland" target="_blank" rel="noreferrer"><FaGithub className='mysite_header-svgs'></FaGithub></a>
                     <a className="mysite_header-social" href="https://www.instagram.com/_jacob_ireland/?hl=en" target="_blank" rel="noreferrer"><FaInstagram className='mysite_header-svgs'></FaInstagram></a>
-                    <a className="mysite_header-social" href="https://www.strava.com/athletes/46252676" target="_blank" rel="noreferrer"><FaStrava className='mysite_header-svgs'></FaStrava></a>
                 </div>
             </div>
         </div>
