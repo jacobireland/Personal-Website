@@ -14,58 +14,58 @@ const Projects = ({ proj1Visible, setProj1Visible, proj2Visible, setProj2Visible
         <div className="projects_row">
           <span className="proj">
             <div className='proj_img'>
-              <img className="img" src={hack} width="360px" alt="computer screen with code on it"></img>
-              <h className="imgtext">Crypto Currency Application</h>
+              <img className="proj_img-pic" src={hack} alt="computer screen with code on it"></img>
+              <div className="imgtext"><h>Crypto Currency Application</h></div>
             </div>
             <div className="proj_button" onClick={() => { setProj1Visible(!proj1Visible)}}>
               <FaEye size={21} id='eye'></FaEye>
-              <h>Project</h>
+              <h className="proj_button-text">Project</h>
             </div>
             <a className="git_button" href="https://github.com/jacobireland/Crypto-Application" target="_blank" rel="noreferrer">
               <FaGithub size={21} id='git'></FaGithub>
-              <h>Github</h>
+              <h className="git_button-text">Github</h>
             </a>
           </span>
           <span className="proj">
             <div className='proj_img'>
-              <img className="img" src={phone} width="360px" alt="computer screen with code on it"></img>
-              <h className="imgtext">IOS Social Media App</h>
+              <img className="proj_img-pic" src={phone} alt="computer screen with code on it"></img>
+              <div className="imgtext"><h>IOS Social Media App</h></div>
             </div>
             <div className="proj_button" onClick={() => { setProj2Visible(!proj2Visible)}}>
               <FaEye size={21} id='eye'></FaEye>
-              <h>Project</h>
+              <h className="proj_button-text">Project</h>
             </div>
             <a className="git_button" href="https://github.com/jacobireland/MoodMates" target="_blank" rel="noreferrer">
               <FaGithub size={21} id='git'></FaGithub>
-              <h>Github</h>
+              <h className="git_button-text">Github</h>
             </a>
           </span>
           <span className="proj">
             <div className='proj_img'>
-              <img className="img" src={website} width="360px" alt="computer screen with code on it"></img>
-              <h className="imgtext">Portfolio Website</h>
+              <img className="proj_img-pic" src={website} alt="computer screen with code on it"></img>
+              <div className="imgtext"><h>Portfolio Website</h></div>
             </div>
             <div className="proj_button" onClick={() => { setProj3Visible(!proj3Visible)}}>
               <FaEye size={21} id='eye'></FaEye>
-              <h>Project</h>
+              <h className="proj_button-text">Project</h>
             </div> 
             <a className="git_button" href="https://github.com/jacobireland/Personal-Website" target="_blank" rel="noreferrer">
               <FaGithub size={21} id='git'></FaGithub>
-              <h>Github</h>
+              <h className="git_button-text">Github</h>
             </a>
           </span>
           <span className="proj">
             <div className='proj_img'>
-              <img className="img" src={code} width="360px" alt="computer screen with code on it"></img>
-              <h className="imgtext">Code Optimization Program</h>
+              <img className="proj_img-pic" src={code}  alt="computer screen with code on it"></img>
+              <div className="imgtext"><h>Code Optimization Program</h></div>
             </div>
             <div className="proj_button" onClick={() => { setProj4Visible(!proj4Visible)}}>
               <FaEye size={21} id='eye'></FaEye>
-              <h>Project</h>
+              <h className="proj_button-text">Project</h>
             </div>
             <a className="git_button" href="https://github.com/COMS4115-PLT-Fall2023/programming-assignment-4-jacobireland" target="_blank" rel="noreferrer">
               <FaGithub size={21} id='git'></FaGithub>
-              <h>Github</h>
+              <h className="git_button-text">Github</h>
             </a>
           </span>
         </div>

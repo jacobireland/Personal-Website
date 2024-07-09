@@ -22,46 +22,51 @@
     align-items: center;
     padding: 0 40px 0 40px;
     justify-content: center;
+    max-width: 100vw;
 }
 
 .proj {
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 360px;
+    width: 23rem;
     margin-bottom: 60px;
 }
 
 .proj_img{
     display: flex;
-    max-width: min-content;
+    max-width: 100%;
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 5px;
 }
 
+.proj_img-pic {
+    width: 100%
+}
+
 .imgtext {
     position: absolute;
     z-index: 50;
-    width: 350px;
+    max-width: 23rem;
     font-family: var(--font-1);
     color: #c5d3e2;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 650;
-    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     line-height: 1.4;
 }
 
 .proj_button, .git_button {
+    display: flex;
     margin-bottom: 5px;
-    padding: 12px 0 12px 10px;
+    padding: 12px 0 12px 0;
     font-size: 16px;
     font-family: var(--font-1);
     font-weight: 400;
-    align-content: center;
+    justify-content: center;
     cursor: pointer;
-    flex-direction: row;
-    text-align: center;
 }
 
 .git_button {
@@ -74,14 +79,16 @@
     color: white;
 }
 
+.proj_button-text, .git_button-text {
+    padding-top: 1px;
+}
+
 .proj_button:hover, .git_button:hover {
     transform: scale(1.05);
 }
 
 #eye, #git {
     margin-right: 10px;
-    align-self: center;
-    margin-left: 2px;
 }
 
 .git_link {
@@ -91,8 +98,9 @@
     text-decoration: none;
 }
 
-span + span {
-    margin-left: 10px;
+span{
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .popup {
@@ -145,5 +153,34 @@ span + span {
         left: 0;
         padding-top: 4rem;
         margin: 0 0 0 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .proj_img {
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 550px) {
+
+    .imgtext {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .imgtext {
+        max-width: 280px;
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
+    .imgtext {
+        max-width: 240px;
+        font-size: 1.5rem;
     }
 }

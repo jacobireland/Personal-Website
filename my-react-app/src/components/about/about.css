@@ -46,13 +46,13 @@
     font-size: 1.1rem;
     padding-bottom: 7px;
     font-weight: 400;
-    line-height: 1.6vw;
+    line-height: 1.5rem;
 }
 
 .mysite_about-interests {
     font-size: 1.1rem;
     font-weight: 400;
-    line-height: 1.6vw;
+    line-height: 1.5rem;
 }
 
 .mysite_about-socials {
@@ -71,4 +71,47 @@
 .mysite_about-socials svg:hover {
     color: #2C78FA;
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+
+    .mysite_about {
+        flex-direction: column;
+    }
+
+    .mysite_flic {
+        margin: 1rem 0 2rem 0;
+        max-width: 35vw;
+    }
+
+    .mysite_about-info {
+        margin: 0 2rem 0 2rem;
+    }
+
+    .mysite_about-introduction, .mysite_about-introduction2, 
+    .mysite_about-interests {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .mysite_flic {
+        max-width: 70vw;
+        margin-bottom: 2.5rem;
+    }
+
+    .mysite_about-name {
+        font-size: 1.5rem;
+    }
+
+    .mysite_about-details {
+        font-size: 1rem;
+    }
+
+    .mysite_about-interests, .mysite_about-introduction,
+    .mysite_about-introduction2 {
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+    }
 }

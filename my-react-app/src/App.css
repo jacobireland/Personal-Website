@@ -10,7 +10,7 @@ body {
 }
 
 .App {
-  max-width: 100%;
+  max-width: 100vw;
   max-height: 1000px;
 }
 
@@ -110,11 +110,9 @@ a {
     }
 
     .App {
-      width: fit-content;
-      max-width: unset;
+
     }
 
   }
-
 
 

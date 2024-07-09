@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css';
 import gradFlic from '../../assets/gradflic2.jpg';
-import { FaGithub, FaLinkedin, FaInstagram, FaStrava } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -21,7 +21,6 @@ const About = () => {
             <a className="mysite_about-linkedin" href="https://www.linkedin.com/in/jacob-ireland-a8a683189/" target="_blank" rel="noreferrer"><FaLinkedin className='mysite_about-svgs'></FaLinkedin></a>
             <a className="mysite_about-twitter" href="https://github.com/jacobireland" target="_blank" rel="noreferrer"><FaGithub className='mysite_about-svgs'></FaGithub></a>
             <a className="mysite_about-instagram" href="https://www.instagram.com/_jacob_ireland/?hl=en" target="_blank" rel="noreferrer"><FaInstagram className='mysite_about-svgs'></FaInstagram></a>
-            <a className="mysite_about-strava" href="https://www.strava.com/athletes/46252676" target="_blank" rel="noreferrer"><FaStrava className='mysite_about-svgs'></FaStrava></a>
         </div>
     </div>
   )
