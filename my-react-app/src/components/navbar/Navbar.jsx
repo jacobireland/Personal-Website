@@ -20,19 +20,25 @@ document.addEventListener('DOMContentLoaded', e => {
     });
 })
 
-const Menu = () => (
-    <>
-        <p><a href="#home">Home</a></p>
-        <p><a href="#about">About</a></p>
-        <p><a href="#skills">Skills</a></p>
-        <p><a href="#projects">Projects</a></p>
-        <p><a href={resume} target="_blank" rel="noreferrer">Resume</a></p>
-    </>
-)
 
 const Navbar = () => {
+
     const [toggleMenu, setToggleMenu] = useState(false)
 
+    const handleClick = () => {
+        setToggleMenu(false);
+    };
+
+    const Menu = () => (
+        <>
+            <p><a href="#home" onClick={(e) => handleClick()}>Home</a></p>
+            <p><a href="#about"  onClick={(e) => handleClick()}>About</a></p>
+            <p><a href="#skills"  onClick={(e) => handleClick()}>Skills</a></p>
+            <p><a href="#projects"  onClick={(e) => handleClick()}>Projects</a></p>
+            <p><a href={resume} target="_blank" rel="noreferrer"  onClick={(e) => handleClick()}>Resume</a></p>
+        </>
+    )
+        
     return (
         <div id="navbar">
             <div className="mysite_navbar-links">
