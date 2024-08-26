@@ -7,4 +7,5 @@ When cloning:
 
 npm install react-icons --save
 npm install reactjs-popup --save
+npm install react-meta-tags --save
  
