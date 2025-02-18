@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
-import resume from '../../assets/Jacob_Ireland_Resume.pdf';
+import resume from '../../assets/Jacob_Ireland_Resume_No_Phone.pdf';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 
